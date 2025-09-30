@@ -1,0 +1,96 @@
+/* 🎨 Coffee Shop Styles */
+
+/* Pastel Gradient Background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #C9E9F4, #C3D9F1, #F2D9EA, #E8B8D2, #FCF4CE);
+  background-attachment: fixed;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff8;
+  padding: 1rem 2rem;
+  backdrop-filter: blur(5px);
+}
+.navbar .logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.navbar .nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+.navbar .nav-links a.active {
+  font-weight: bold;
+  color: #a0527d;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+.hero h1 {
+  font-size: 2.5rem;
+}
+.hero-buttons {
+  margin-top: 1rem;
+}
+.btn-primary {
+  padding: 0.6rem 1.2rem;
+  background: #a0527d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn-ghost {
+  padding: 0.6rem 1.2rem;
+  border: 2px solid #a0527d;
+  color: #a0527d;
+  border-radius: 5px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+.card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Sections */
+section {
+  padding: 3rem 2rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #fff8;
+  margin-top: 2rem;
+}
+ 
