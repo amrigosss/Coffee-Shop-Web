@@ -1,4 +1,4 @@
-// Simple JS placeholder
+
 console.log("Coffee Shop website loaded.");
 
 // Example: Menu filter (to be expanded later)
